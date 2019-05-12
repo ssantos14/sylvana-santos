@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header a {
+  color: #AB47BC;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 450px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/59/purple-690724_1280.jpg");
+  background-size: cover;
+  background-position: center bottom; 
+}
+
+.jumbotron h2 {
+  background-color: #FFFFFF;
+  display: inline-block;
+  color: #FF7043;
+  font-weight: bold;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.jumbotron h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.descriptions {
+  padding: 10px 35px;
+}
+
+.descriptions h4 {
+  color: #AB47BC;
+  font-weight: 700;
+}
+
+.descriptions h5 {
+  color: #FF7043;
+}
+
+.descriptions h6 {
+  color: #AB47BC;
+}
+
+footer {
+  background-color: #FF7043;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 35px;
+  margin-top: 30px;
+}
+
+footer h6 {
+  font-weight: 700;
+}
+
+footer a {
+  color: #FFFFFF;
+}
