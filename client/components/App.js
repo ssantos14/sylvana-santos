@@ -6,10 +6,10 @@ const App = () => {
         <Router>
             <div>
                 <nav>
-                    /*Links go here*/
+                    {/*Links go here*/}
                 </nav>
                 <div>
-                    /*Routes go here*/
+                    {/*Routes go here*/}
                 </div>
             </div>
         </Router>
