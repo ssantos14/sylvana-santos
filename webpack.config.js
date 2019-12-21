@@ -1,20 +1,25 @@
 const isDev = process.env.NODE_ENV === 'development'
+
 module.exports = {
     entry: ['@babel/polyfill', './client/index.js'], // entry point
-    mode: isDev === 'development' ? 'development' : 'production',
+    mode: isDev ? 'development' : 'production',
     output: {
       path: __dirname, // location of bundle.js
       filename: './public/bundle.js'
     },
-    devtool: 'source-maps',
+    resolve: {
+      extensions: ['.js', '.jsx']
+    },
+    devtool: 'source-map',
+    watchOptions: {
+      ignored: /node_modules/
+    },
     module: {
       rules: [
         {
-          test: /\.js$/,
+          test: /\.jsx?$/,
           exclude: /node_modules/,
-          use: {
-            loader: 'babel-loader'
-          }
+          loader: 'babel-loader'
         }
       ]
     }
