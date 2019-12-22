@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: darkolivegreen;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.nav-item {
+    margin: 0 2% 0 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    background-color: cornflowerblue;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron-title {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 98px;
+    margin: 5px;
+}
+
+.jumbotron-subtitle {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+}
+
+.about-container {
+    background-color: greenyellow;
+}
+
+.projects-container {
+    background-color: indigo;
+}
+
+.contact-container {
+    background-color: crimson;
+}

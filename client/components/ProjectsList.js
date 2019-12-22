@@ -9,9 +9,8 @@ class ProjectsList extends React.Component {
     }
 
     render() {
-        console.log(this.props.projects)
         return (
-            <div>
+            <div className='projects-container'>
                 {
                     this.props.projects.map(project => <p>{project.name}</p>)
                 }
