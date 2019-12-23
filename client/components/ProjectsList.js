@@ -10,7 +10,7 @@ class ProjectsList extends React.Component {
 
     render() {
         return (
-            <div className='projects-container'>
+            <div>
                 {
                     this.props.projects.map(project => <p>{project.name}</p>)
                 }

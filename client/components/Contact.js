@@ -6,7 +6,7 @@ const handleChange = () => {
 
 const Contact = () => {
     return (
-        <form className="contact-container" onSubmit={handleChange}>
+        <form onSubmit={handleChange}>
             <label htmlFor="email">email (required)</label>
             <input
             name="email"

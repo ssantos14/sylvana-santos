@@ -9,7 +9,7 @@ class About extends React.Component {
 
     render () {
         return (
-            <div className='about-container'>
+            <div>
                 <p>These are my skills:</p>
                 <img src={'/images/js.png'}/>
             </div>

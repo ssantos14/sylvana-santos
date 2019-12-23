@@ -10,8 +10,9 @@ const App = () => {
         <Router>
             <div>
                 <nav>
-                    <Link to='/projects' className='nav-item'>Projects</Link>
                     <Link to='/about' className='nav-item'>About</Link>
+                    <Link to='/projects' className='nav-item'>Projects</Link>
+                    <Link to='/contact' className='nav-item'>Contact</Link>
                 </nav>
                 <div>
                     <Jumbotron/>
