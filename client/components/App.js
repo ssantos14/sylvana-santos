@@ -14,7 +14,7 @@ const App = () => {
                     <Link to='/projects' className='nav-item'>Projects</Link>
                     <Link to='/contact' className='nav-item'>Contact</Link>
                 </nav>
-                <div>
+                <div className='body-container'>
                     <Jumbotron/>
                     <About/>
                     <ProjectsList/>

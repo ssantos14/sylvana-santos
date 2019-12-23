@@ -44,3 +44,8 @@ nav {
     margin: 5px;
     color: white;
 }
+
+.body-container {
+    background-image: url('/images/WebpageBackground.png');
+    background-size: contain;
+}
