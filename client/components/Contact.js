@@ -6,34 +6,39 @@ const handleChange = () => {
 
 const Contact = () => {
     return (
-        <form onSubmit={handleChange}>
-            <label htmlFor="email">email (required)</label>
-            <input
-            name="email"
-            type="email"
-            value='{this.state.email}'
-            onChange={handleChange}
-            required
-            />
+        <div className='contact-container'>
+            <div className='contact-subcontainer'>
+                <p className='about-title'>Contact</p>
+                <label htmlFor="email" className='contact-label'>Email</label>
+                <input
+                className='contact-input'
+                name="email"
+                value='Email'
+                onChange={handleChange}
+                required
+                />
 
-            <label htmlFor="address">address (required)</label>
-            <input
-            name="address"
-            value='{this.state.address}'
-            onChange={handleChange}
-            required
-            />
+                <label className='contact-label'>Name</label>
+                <input
+                className='contact-input'
+                name="address"
+                value='Address'
+                onChange={handleChange}
+                required
+                />
 
-            <label htmlFor="phone">phone (required)</label>
-            <input
-            name="phone"
-            value='{this.state.phone}'
-            onChange={handleChange}
-            required
-            />
+                <label className='contact-label'>Message</label>
+                <input
+                className='contact-input'
+                name="Message"
+                value='Message'
+                onChange={handleChange}
+                required
+                />
 
-            <button type="submit">Save Changes</button>
-        </form>
+                <button className='contact-button'>Send</button>
+            </div>
+        </div>
     )
 }
 

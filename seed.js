@@ -3,22 +3,34 @@ const {db, Projects, Skills} = require('./server/models/index');
 const projects = [
     {
         name: 'skinRx',
-        description: 'A suite of applications...'
+        description: 'A mobile application designed for health-conscious skincare lovers'
     },
     {
         name: 'elect',
-        description: 'A mobile app...'
+        description: 'A mobile application to help indecisive friend groups choose restaurants'
     },
     {
         name: 'The Seriously Cereal Shop',
-        description: 'A web application...'
+        description: 'A e-commerce website designed to sell some classic cereals'
     }
 ]
 
 const skills = [
     {
         name: 'PostgresSQL',
-        icon: 'postgres image'
+        icon: '/images/postgreSQL.png'
+    },
+    {
+        name: 'Node',
+        icon: '/images/node.png'
+    },
+    {
+        name: 'Javascript',
+        icon: '/images/js.png'
+    },
+    {
+        name: 'React, React Native',
+        icon: '/images/reactNative.png'
     }
 ]
 

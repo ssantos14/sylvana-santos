@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: #f5f5f5;
+    background-color: white;
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -48,4 +48,105 @@ nav {
 .body-container {
     background-image: url('/images/WebpageBackground.png');
     background-size: contain;
+}
+
+.about-container {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title {
+    margin: 10px 40px 10px;
+    color: #51598E;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-text {
+    margin: 10px 40px 10px;
+    color: #51598E;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills-container {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.skill-item {
+}
+
+.skill-icon {
+
+}
+
+.skill-name {
+
+}
+
+.projects-container {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.project-item {
+    
+}
+
+.project-title {
+    
+}
+
+.project-description {
+    
+}
+
+.contact-container {
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-subcontainer {
+    background-color: white;
+    border-radius: 6px;
+    width: 80%;
+    margin: 20px 0 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-input {
+    margin: 5px 10px 5px;
+}
+
+.contact-label {
+    margin: 5px 10px 5px;
+}
+
+.contact-button {
+    width: fit-content;
+    margin: 5px 10px 5px;
 }
