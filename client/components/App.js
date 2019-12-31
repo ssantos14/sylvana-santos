@@ -19,6 +19,7 @@ const App = () => {
                 <div className='body-container'>
                     <Jumbotron/>
                     <About/>
+                    <Skills/>
                     <ProjectsList/>
                     <Contact/>
                 </div>

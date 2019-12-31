@@ -1,10 +1,9 @@
 import React from 'react';
-import Skills from './Skills';
 
 const About = () => {
     return (
         <div className='about-container'>
-            <img style={{height: 200, width: 200}}src={'/images/JumbotronBackground.png'}/>
+            <img style={{height: 200, width: 200, borderRadius: '50%'}}src={'/images/profilePic.jpeg'}/>
             {/* <p className='about-title'>About</p> */}
             <p className='about-text'>
             My curiosity for software development grew from my desire to address issues within the education system. 
@@ -13,7 +12,6 @@ const About = () => {
             Given the power and widespread reach of technology, I wanted to develop skills that would allow me to provide a quality education to every student. 
             I'm currently a Full-Stack Developer specializing in Javascript and the NERD stack, and I'm eager to empower teachers and students through technology. 
             </p>
-            <Skills/>
         </div>
     )
 }

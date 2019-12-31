@@ -8,8 +8,7 @@ const Contact = () => {
     return (
         <div className='contact-container'>
             <div className='contact-subcontainer'>
-                <p className='about-title'>Contact</p>
-                <label htmlFor="email" className='contact-label'>Email</label>
+                <p className='contact-title'>Contact</p>
                 <input
                 className='contact-input'
                 name="email"
@@ -17,8 +16,6 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 />
-
-                <label className='contact-label'>Name</label>
                 <input
                 className='contact-input'
                 name="address"
@@ -26,8 +23,6 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 />
-
-                <label className='contact-label'>Message</label>
                 <input
                 className='contact-input'
                 name="Message"

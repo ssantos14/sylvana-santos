@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {getSkills} from '../redux/skills';
 import SkillsItem from './SkillsItem';
 
-class About extends React.Component {
+class Skills extends React.Component {
     componentDidMount () {
         this.props.getSkills()
     }
@@ -11,7 +11,10 @@ class About extends React.Component {
     render () {
         return (
             <div className='skills-container'>
-                {this.props.skills.map(skill => <SkillsItem key={skill.id} skill={skill}/>)}
+                <p className='skills-title'>Skills</p>
+                <div className='skills-list'>
+                    {this.props.skills.map(skill => <SkillsItem key={skill.id} skill={skill}/>)}
+                </div>
             </div>
         )
     }
@@ -25,6 +28,6 @@ const mapDispatchToProps = (dispatch) => ({
     getSkills: () => dispatch(getSkills())
 })
 
-const connectedAbout = connect(mapStateToProps, mapDispatchToProps)(About);
+const connectedSkills = connect(mapStateToProps, mapDispatchToProps)(Skills);
 
-export default connectedAbout;
+export default connectedSkills;
