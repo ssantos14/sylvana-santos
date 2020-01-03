@@ -31,6 +31,30 @@ const skills = [
     {
         name: 'React, React Native',
         icon: '/images/reactNative.png'
+    },
+    {
+        name: 'Redux',
+        icon: '/images/redux.png'
+    },
+    {
+        name: 'Heroku',
+        icon: '/images/heroku.svg'
+    },
+    {
+        name: 'Express',
+        icon: '/images/express.png'
+    },
+    {
+        name: 'Mocha, Chai',
+        icon: '/images/mocha-chai.png'
+    },
+    {
+        name: 'Sequelize',
+        icon: '/images/sequelize.png'
+    },
+    {
+        name: 'Webpack',
+        icon: '/images/webpack.png'
     }
 ]
 

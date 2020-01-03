@@ -11,7 +11,9 @@ class Skills extends React.Component {
     render () {
         return (
             <div className='skills-container'>
-                <p className='skills-title'>Skills</p>
+                <div className='skills-title-container'>
+                    <p className='skills-title'>Skills</p>
+                </div>
                 <div className='skills-list'>
                     {this.props.skills.map(skill => <SkillsItem key={skill.id} skill={skill}/>)}
                 </div>

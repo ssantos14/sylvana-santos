@@ -18,10 +18,13 @@ const App = () => {
                 </nav>
                 <div className='body-container'>
                     <Jumbotron/>
-                    <About/>
-                    <Skills/>
-                    <ProjectsList/>
-                    <Contact/>
+                    <div className='content-container'>
+                        <About/>
+                        <Skills/>
+                        <ProjectsList/>
+                        <Contact/>
+                    </div>
+                    
                 </div>
             </div>
         </Router>
