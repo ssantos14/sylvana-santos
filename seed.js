@@ -17,16 +17,28 @@ const projects = [
 
 const skills = [
     {
-        name: 'PostgresSQL',
-        icon: '/images/postgreSQL.png'
+        name: 'Javascript',
+        icon: '/images/js.png'
     },
     {
         name: 'Node',
         icon: '/images/node.png'
     },
     {
-        name: 'Javascript',
-        icon: '/images/js.png'
+        name: 'PostgresSQL',
+        icon: '/images/postgreSQL.png'
+    },
+    {
+        name: 'Express',
+        icon: '/images/express.png'
+    },
+    {
+        name: 'Sequelize',
+        icon: '/images/sequelize.png'
+    },
+    {
+        name: 'Webpack',
+        icon: '/images/webpack.png'
     },
     {
         name: 'React, React Native',
@@ -41,20 +53,32 @@ const skills = [
         icon: '/images/heroku.svg'
     },
     {
-        name: 'Express',
-        icon: '/images/express.png'
+        name: 'Mocha',
+        icon: '/images/mocha.png'
     },
     {
-        name: 'Mocha, Chai',
-        icon: '/images/mocha-chai.png'
+        name: 'Chai',
+        icon: '/images/chai.png'
     },
     {
-        name: 'Sequelize',
-        icon: '/images/sequelize.png'
+        name: 'HTML',
+        icon: '/images/html.png'
     },
     {
-        name: 'Webpack',
-        icon: '/images/webpack.png'
+        name: 'CSS',
+        icon: '/images/css.png'
+    },
+    {
+        name: 'Dart',
+        icon: '/images/dart.png'
+    },
+    {
+        name: 'Flutter',
+        icon: '/images/flutter.png'
+    },
+    {
+        name: 'Java',
+        icon: '/images/java.png'
     }
 ]
 

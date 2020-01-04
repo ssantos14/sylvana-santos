@@ -40,7 +40,7 @@ const Contact = () => {
                     /> */}
                     <button className='contact-button'>Send</button>
                 </div>
-                <div className='contact-info-contianer'>
+                <div className='contact-info-container'>
                     <div className='info-row'>
                         <img style={{width: 24, height: 24}} src={'/images/phone.png'}/>
                         <p className='contact-text'>(323) 608-5195</p>
