@@ -16,7 +16,7 @@ class ProjectsList extends React.Component {
             arrows: false, 
             dots: true,
             autoplay: true,
-            autoplaySpeed: 5000
+            autoplaySpeed: 8000
         };
         return (
             <div className='projects-container'>

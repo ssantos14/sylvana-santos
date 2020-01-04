@@ -5,7 +5,7 @@ const projects = [
         name: 'skinRx',
         description: 'A mobile application designed for health-conscious skincare lovers',
         contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
-        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL',
+        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL, Javascript, HTML, CSS',
         link: 'https://github.com/Capstone-R2D3',
         image: '/images/skinRx.png',
         color: 'rgba(13, 79, 160, 0.6)'
@@ -13,19 +13,19 @@ const projects = [
     {
         name: 'elect',
         description: 'A mobile application to help indecisive friend groups choose restaurants',
-        contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
-        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL',
-        link: 'https://github.com/Capstone-R2D3',
-        image: '/images/WebpageBackground.png',
+        contributions: ['Relied on Google Places API to generate a list of restaurants', 'Incorporated flutter packages to create animations, construct toast notifications, and get the device location'],
+        technologies: 'Flutter, Dart',
+        link: 'https://github.com/elect-for-the-indecisive/elect',
+        image: '/images/elect.png',
         color: 'rgba(22, 157, 83, 0.6)'
     },
     {
         name: 'The Seriously Cereal Shop',
         description: 'A e-commerce website designed to sell some classic cereals',
-        contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
-        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL',
-        link: 'https://github.com/Capstone-R2D3',
-        image: '/images/WebpageBackground.png',
+        contributions: ['Utilized JS and NERD stack to create the application', 'Implemented Passport and Express Sessions to enable the cart to persist through page refreshes', 'Employed Mocha with Chai, Enzyme, Supertest, and other libraries to write tests for both the frontend and backend'],
+        technologies: 'React, Redux, Sequelize, Express, PostgreSQL, Javascript, HTML, CSS',
+        link: 'https://cinnamon-post-crunch.herokuapp.com',
+        image: '/images/cereal.png',
         color: 'rgba(97, 65, 172, 0.6)'
     }
 ]
