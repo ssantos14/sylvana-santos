@@ -3,15 +3,30 @@ const {db, Projects, Skills} = require('./server/models/index');
 const projects = [
     {
         name: 'skinRx',
-        description: 'A mobile application designed for health-conscious skincare lovers'
+        description: 'A mobile application designed for health-conscious skincare lovers',
+        contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
+        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL',
+        link: 'https://github.com/Capstone-R2D3',
+        image: '/images/skinRx.png',
+        color: 'rgba(13, 79, 160, 0.6)'
     },
     {
         name: 'elect',
-        description: 'A mobile application to help indecisive friend groups choose restaurants'
+        description: 'A mobile application to help indecisive friend groups choose restaurants',
+        contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
+        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL',
+        link: 'https://github.com/Capstone-R2D3',
+        image: '/images/WebpageBackground.png',
+        color: 'rgba(22, 157, 83, 0.6)'
     },
     {
         name: 'The Seriously Cereal Shop',
-        description: 'A e-commerce website designed to sell some classic cereals'
+        description: 'A e-commerce website designed to sell some classic cereals',
+        contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
+        technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL',
+        link: 'https://github.com/Capstone-R2D3',
+        image: '/images/WebpageBackground.png',
+        color: 'rgba(97, 65, 172, 0.6)'
     }
 ]
 

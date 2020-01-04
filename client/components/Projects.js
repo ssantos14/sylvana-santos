@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {getProjects} from '../redux/projects';
 import ProjectsItem from './ProjectsItem';
+import Slider from 'infinite-react-carousel';
 
 class ProjectsList extends React.Component {
 
@@ -10,10 +11,22 @@ class ProjectsList extends React.Component {
     }
 
     render() {
+        const settings = {
+            className: 'slider',
+            arrows: false, 
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 5000
+        };
         return (
             <div className='projects-container'>
                 {
-                    this.props.projects.map(project => <ProjectsItem key={project.id} project={project}/>)
+                    this.props.projects.length === 0 ? null :
+                    <Slider {...settings}>
+                        {
+                            this.props.projects.map(project => <ProjectsItem key={project.id} project={project}/>)
+                        }
+                    </Slider> 
                 }
             </div>
         )

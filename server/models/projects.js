@@ -15,6 +15,39 @@ const Projects = db.define('projects', {
         validate: {
             notEmpty: true
         }
+    },
+    contributions: {
+        type: Sequelize.ARRAY(Sequelize.STRING),
+        allowNull: false
+    },
+    technologies: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
+    },
+    link: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+            notEmpty: true,
+            isUrl: true
+        }
+    },
+    image: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
+    },
+    color: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
     }
 });
 
