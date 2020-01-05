@@ -252,28 +252,28 @@ nav {
 
 .contact-subcontainer {
     background-color: white;
-    width: 75%;
-    height: 65%;
-    margin: 20px 0 20px;
-    padding: 20px;
+    width: 65%;
+    height: 400px;
+    margin: 8% 0 8%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 .email-form-container {
     width: 45%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 2% 4% 2%;
+    padding: 0 4% 0;
 }
 
 .contact-title {
     margin: 1% 0 1%;
-    color: #cc1ae5;
+    color: black;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -282,9 +282,9 @@ nav {
 .contact-input {
     border-style: solid;
     border-width: 1px;
-    border-color: #cc1ae5;
+    border-color: black;
     border-radius: 2px;
-    color: #cc1ae5;
+    color: black;
     width: 80%;
     margin: 1% 0 1%;
     padding: 1%;
@@ -297,9 +297,9 @@ nav {
 }
 
 .contact-button {
-    border-color: #cc1ae5;
+    border-color: black;
     border-radius: 2px;
-    background-color: #cc1ae5;
+    background-color: black;
     color: white;
     width: 15%;
     margin: 5px 10px 5px;
@@ -307,13 +307,12 @@ nav {
 }
 
 .contact-info-container {
-    width: 47%;
-    height: 100%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 2% 2% 2% 6%;
+    padding: 0 4% 0;
 }
 
 .info-row {
@@ -327,6 +326,6 @@ nav {
 .contact-text {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    color:  #cc1ae5;
+    color:  black;
     margin-left: 4%;
 }
