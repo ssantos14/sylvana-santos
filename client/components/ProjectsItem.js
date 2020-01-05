@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectsItem = (props) => {
     const projectStyle = {
-        backgroundImage: `linear-gradient(${props.project.color}, ${props.project.color}), url(${props.project.image})`,
+        backgroundImage: `linear-gradient(to bottom, ${props.project.color}), url(${props.project.image})`,
         backgroundSize: '40% 100%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'left top'

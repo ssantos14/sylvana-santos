@@ -8,7 +8,7 @@ const projects = [
         technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL, Javascript, HTML, CSS',
         link: 'https://github.com/Capstone-R2D3',
         image: '/images/skinRx.png',
-        color: 'rgba(13, 79, 160, 0.6)'
+        color: 'rgba(13, 79, 160, .15), rgba(13, 79, 160, .55)'
     },
     {
         name: 'elect',
@@ -17,7 +17,7 @@ const projects = [
         technologies: 'Flutter, Dart',
         link: 'https://github.com/elect-for-the-indecisive/elect',
         image: '/images/elect.png',
-        color: 'rgba(22, 157, 83, 0.6)'
+        color: 'rgba(22, 157, 83, .15), rgba(22, 157, 83, .55)'
     },
     {
         name: 'The Seriously Cereal Shop',
@@ -25,8 +25,8 @@ const projects = [
         contributions: ['Utilized JS and NERD stack to create the application', 'Implemented Passport and Express Sessions to enable the cart to persist through page refreshes', 'Employed Mocha with Chai, Enzyme, Supertest, and other libraries to write tests for both the frontend and backend'],
         technologies: 'React, Redux, Sequelize, Express, PostgreSQL, Javascript, HTML, CSS',
         link: 'https://cinnamon-post-crunch.herokuapp.com',
-        image: '/images/cereal.png',
-        color: 'rgba(97, 65, 172, 0.6)'
+        image: '/images/skinRx.png',
+        color: 'rgba(97, 65, 172, .15), rgba(97, 65, 172, .55)'
     }
 ]
 
