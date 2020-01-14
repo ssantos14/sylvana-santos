@@ -1,44 +1,12 @@
 import React from 'react';
-
-const handleChange = () => {
-    console.log('hello');
-}
+import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
         <div className='contact-container'>
             <div className='contact-subcontainer'>
                 <div className='email-form-container'>
-                    <p className='contact-title'>Send me a message!</p>
-                    <input
-                        className='contact-input'
-                        name="email"
-                        value='Email'
-                        onChange={handleChange}
-                        required
-                    />
-                    <input
-                        className='contact-input'
-                        name="address"
-                        value='Address'
-                        onChange={handleChange}
-                        required
-                    />
-                    <textarea
-                        className='contact-input message'
-                        name="Message"
-                        value='Message'
-                        onChange={handleChange}
-                        required
-                    />
-                    {/* <input
-                        className='contact-input message'
-                        name="Message"
-                        value='Message'
-                        onChange={handleChange}
-                        required
-                    /> */}
-                    <button className='contact-button'>Send</button>
+                    <ContactForm/>
                 </div>
                 <div className='contact-info-container'>
                     <div className='info-row'>

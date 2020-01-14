@@ -3,8 +3,8 @@ const {db, Projects, Skills} = require('./server/models/index');
 const projects = [
     {
         name: 'skinRx',
-        description: 'A mobile application designed for health-conscious skincare lovers',
-        contributions: ['Implemented React Native to build the user interface', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
+        description: 'A suite of applications designed for health-conscious skincare lovers',
+        contributions: ['Implemented React Native to build the mobile UI', 'Employed cheerio library to scrape the EWG website for products, ingredients, and toxicity scores','Incorporated the multer middleware into the backend to allow users to upload images and send the image to the server using a FormData object'],
         technologies: 'React Native, Redux, Sequelize, Express, PostgreSQL, Javascript, HTML, CSS',
         link: 'https://github.com/Capstone-R2D3',
         image: '/images/skinRx.png',
@@ -25,7 +25,7 @@ const projects = [
         contributions: ['Utilized JS and NERD stack to create the application', 'Implemented Passport and Express Sessions to enable the cart to persist through page refreshes', 'Employed Mocha with Chai, Enzyme, Supertest, and other libraries to write tests for both the frontend and backend'],
         technologies: 'React, Redux, Sequelize, Express, PostgreSQL, Javascript, HTML, CSS',
         link: 'https://cinnamon-post-crunch.herokuapp.com',
-        image: '/images/skinRx.png',
+        image: '/images/cereal.png',
         color: 'rgba(97, 65, 172, .15), rgba(97, 65, 172, .55)'
     }
 ]
