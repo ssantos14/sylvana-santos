@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 class ContactForm extends React.Component {
     constructor () {
@@ -9,13 +10,19 @@ class ContactForm extends React.Component {
             message: ''
         }
         this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     async handleSubmit (event) {
         event.preventDefault();
-        console.log('Form submitted');
-        // await this.props.sendEmail();
-        // this.props.history.push();
+        axios.post('https://mailthis.to/sylvana.e.santos@gmail.com', {
+            email: this.state.email,
+            _subject: this.state.subject,
+            message: this.state.message
+          }).then(function () {
+            location.href = 'https://mailthis.to/confirm'
+        });
+        this.setState({email: '', subject: '', message: ''});
     }
 
     handleChange (event) {
@@ -43,6 +50,7 @@ class ContactForm extends React.Component {
                         <textarea
                             className='contact-input message'
                             name="message"
+                            value={this.state.message}
                             onChange={this.handleChange}
                             required
                         >{this.state.message}</textarea>
