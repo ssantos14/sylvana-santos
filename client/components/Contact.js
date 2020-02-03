@@ -1,9 +1,9 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 
-const Contact = () => {
+const Contact = props => {
     return (
-        <div className='contact-container'>
+        <div className='contact-container' id={props.id}>
             <div className='contact-subcontainer'>
                 <div className='email-form-container'>
                     <ContactForm/>

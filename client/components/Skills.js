@@ -10,7 +10,7 @@ class Skills extends React.Component {
 
     render () {
         return (
-            <div className='skills-container'>
+            <div className='skills-container' id={this.props.id}>
                 <div className='skills-title-container'>
                     <p className='skills-title'>Skills</p>
                 </div>

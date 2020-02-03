@@ -19,7 +19,7 @@ class ProjectsList extends React.Component {
             autoplaySpeed: 8000
         };
         return (
-            <div className='projects-container'>
+            <div className='projects-container' id={this.props.id}>
                 {
                     this.props.projects.length === 0 ? null :
                     <Slider {...settings}>
