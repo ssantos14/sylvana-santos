@@ -6,14 +6,12 @@ const ProjectsItem = (props) => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        width: '40%',
-        height: '100%',
         borderRadius: '4px 0 0 4px',
     }
     return (
         <div className='project-item'>
             <div className='project-content'>
-                <div style={projectStyle}/>
+                <div className="project-image" style={projectStyle}/>
                 <div className='project-description'>
                     <div className='project-title-container'>
                         <p className='project-title'>{props.project.name}</p>

@@ -15,11 +15,11 @@ const Contact = props => {
                     </div>
                     <div className='info-row'>
                         <img style={{width: 24, height: 24}} src={'/images/linkedin.png'}/>
-                        <p className='contact-text'>https://www.linkedin.com/in/sylvanaelizabethsantos</p>
+                        <p className='contact-text'>sylvanaelizabethsantos</p>
                     </div>
                     <div className='info-row'>
                         <img style={{width: 24, height: 24}} src={'/images/github.png'}/>
-                        <p className='contact-text'>http://github.com/ssantos14</p>
+                        <p className='contact-text'>ssantos14</p>
                     </div>
                 </div>
             </div>

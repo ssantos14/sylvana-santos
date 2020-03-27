@@ -4,7 +4,7 @@ const About = props => {
     return (
         <div className='about-container' id={props.id}>
             <div className='about-image-container'>
-                <img style={{height: 300, width: 300, borderRadius: '50%'}} src={'/images/profilePic.jpeg'}/>
+                <img src={'/images/profilePic.jpeg'}/>
             </div>
             <div className='about-content'>
                 <div className='about-title-container'>
