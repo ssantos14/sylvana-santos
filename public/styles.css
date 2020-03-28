@@ -399,9 +399,19 @@ nav {
     .about-container, .skills-container {
         flex-direction: column;
     }
+
+    .about-image-container {
+        width: 100%
+    }
+
+    .about-image-container > img {
+        width: 96px;
+        height: 96px;
+    }
     
     .about-content {
         width: 80%;
+        margin-top: 4%;
     }
     
     .about-title-container {
@@ -414,7 +424,7 @@ nav {
         text-align: center;
     }
     
-    .about-text {
+    .about-text, .contact-title {
         font-size: 12px;
     }
 
@@ -429,7 +439,7 @@ nav {
         font-size: 20px;
     }
 
-    .skill-name, .project-text, .project-link {
+    .skill-name, .project-text, .project-link, .contact-text {
         font-size: 10px
     }
 
